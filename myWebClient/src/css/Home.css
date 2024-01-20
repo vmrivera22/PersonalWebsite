@@ -1,0 +1,12 @@
+.home--container{
+    display: flex;
+    flex-direction: column;
+}
+
+.home--title{
+    color: white;
+    margin: 0;
+    align-self: center;
+    padding-top: 50px;
+    z-index: 1;
+}

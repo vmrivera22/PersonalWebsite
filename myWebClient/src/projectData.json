@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1, 
+    "title": "Lempel-Ziv Compressor / Decompressor",
+    "description": "Programs written in C that compress and decompress binary and text files.",
+    "link": "https://github.com/vmrivera22/Lempel-Ziv-Compression",
+    "options": ["-v: Display Stats", "-i <input>: Specify input file (stdin by default)", "-o <output>: Specify output file (stdout by default)"],
+    "files": ["README.md", "design.pdf", "Makefile", "encode.c", "decode.c", "io.c/h", "trie.c/h", "word.c/h", "code.h", "endian.h", "test.sh", "test files: 10mb.txt, bible.txt, small.txt, large_binary.png, small_binary.png", "test scripts: large_binary.sh, large_text.sh, small_binary.sh, small_text.sh, valgrind_text.sh"],
+    "topics": ["C", "Shell Scripting", "Data Structures", "Makefile"]
+  },
+  {
+    "id": 2, 
+    "title": "Web Proxy: HTTP to HTTPS",
+    "description": "Multithreaded C++ web proxy that converts client HTTP requests to HTTPS requests and server HTTPS responses to HTTP.",
+    "link": "https://github.com/vmrivera22/Web-Proxy",
+    "topics": ["C++", "Network", "Makefile", "Data Structures"],
+    "files": ["README.md", "Makefile", "ll.h", "myproxy.cpp", "validarg.h", "testscript.sh", "test.txt"]
+  },
+  {
+    "id": 4, 
+    "title": "IPv6 Address Resolution Simulator",
+    "description": "Terminal-based Python program simulating IPv6 address resolution on user built topologies.",
+    "link": "https://github.com/vmrivera22/IPv6_AddResSim",
+    "topics": ["Python", "Networks", "OOP"],
+    "files": ["README.md", "IPv6AddRes.py", "add_manipulation.py", "topology.py"],
+    "options": ["'AR': Add a new router", 
+    "'AE': Add a new end device", 
+    "'AS': Add a new switch", 
+    "'RD': Remove a device", 
+    "'AC': Add a connection", 
+    "'RC': Remove a connection",
+    "'AI': Add a new IPv6 address to an existing device",
+    "'RI': Remove an IPv6 address from an existing device",
+    "'TT': Create the pre-built test topology",
+    "'SS': Start the Simulation",
+    "'PT': Print the Topology",
+    "'PD': Print all info regarding a device",
+    "'H': Repeat options",
+    "'E': End the program"]
+  },
+  {
+    "id": 5, 
+    "title": "Personal Website: Portfolio",
+    "description": "Personal website displaying information about my education, experiences, and interests.",
+    "link": "https://github.com/vmrivera22/PersonalWebsite",
+    "topics": ["Typescript", "React", "CSS", "HTML"]
+  },
+  {
+    "id": 6, 
+    "title": "React Web Blog",
+    "description": "A reddit like website where users can create profile, post, comment.",
+    "link": "https://github.com/vmrivera22/ReactBlog",
+    "topics": ["Typescript", "React", "CSS", "Express", "MongoDB", "HTML"],
+    "incomplete": true
+  },
+  {
+    "id": 7, 
+    "title": "Reliable UDP",
+    "description": "A client and server that communicate through UDP but ensures reliability by sequencing packets and retransmitting lost packets.",
+    "link": "https://github.com/vmrivera22/ReliableUDP",
+    "topics": ["C++", "Multithreaded", "Networks"]
+  },
+  {
+    "id": 8, 
+    "title": "Multithreaded Queue",
+    "description": "A simple multithreaded Queue data structure.",
+    "link": "",
+    "topics": ["C", "Multithreaded"]
+  },
+  {
+    "id": 9, 
+    "title": "Smart Bike Lock",
+    "description": "A GPS-enabled smart bike lock that interfaces with a smartphone app via WiFi and Bluetooth.",
+    "link": "",
+    "topics": ["Python", "Hardware"]
+  },
+  {
+    "id": 10, 
+    "title": "Pathfinder",
+    "description": "A graph recursion (DFS) program that finds all possible paths from node A to node Z.",
+    "link": "https://github.com/vmrivera22/pathfinder",
+    "topics": ["C", "Shell Scripting", "Makefile"],
+    "files": [
+      "README.md",
+      "Makefile",
+      "pathfinder.c",
+      "graph.c/h",
+      "stack.c/h",
+      "test.sh",
+      "utils.sh",
+      "simple_directed_path.sh",
+      "simple_path.sh",
+      "simple_path.txt"
+    ],
+    "options": [
+      "-i <input>: Specify input file to make the graph (stdin by default)",
+      "-u: specifies that the graph be undirected (this is the default).",
+      "-d: specifies that the graph be directed.",
+      "-m: specifies that the adjacency matrix be printed."
+    ]
+  }
+]

@@ -1,0 +1,139 @@
+<div className="resume--container">
+      <h3>One Page Resume PDFs</h3>
+      <h4>Network Resume PDF</h4>
+      <h4>Software Engineer Resume PDF</h4>
+      <h4>Bioengineering Resume PDF</h4>
+
+      <h3>Extended Resume: </h3>
+      <h1>Victor Manuel Rivera</h1>
+      <h4>Email: vmrivera722@gmail.com</h4>
+      <h4>Phone: (209) 931-5633</h4>
+      <h3>Education:</h3>
+      <p>University of California Santa Cruz ------- 2018-2023</p>
+      <ul>
+        <li>Computer Engineering</li>
+        <li>Bioengineering: Bioelectronics</li>
+      </ul>
+      <p>Cisco CCNA Certificate</p>
+      <h3>Major Coursework:</h3>
+      <ul>
+        <li></li>
+      </ul>
+      <h3>Skills:</h3>
+      <h4>Programing Languages:</h4>
+      <ul>
+        <li>C/C++</li>
+        <li>Python</li>
+        <li>JavaScript/TypeScript</li>
+        <li>Bash</li>
+      </ul>
+      <h4>Automation:</h4>
+      <ul>
+        <li>Shell Scripting</li>
+        <li>Python Scripting</li>
+        <li>Jenkins</li>
+      </ul>
+      <h4>Virtualization:</h4>
+      <ul>
+        <li>Virtual Machines</li>
+        <li>Docker</li>
+        <li>Python Virtual Environment</li>
+      </ul>
+      <h4>Network</h4>
+      <ul>
+        <li>Protocols</li>
+        <ul>
+          <li>IPv6</li>
+          <li>IPv4</li>
+          <li>OSPF</li>
+          <li>STP</li>
+          <li>BGP</li>
+          <li>LACP</li>
+          <li>DHCP</li>
+          <li>DNS</li>
+          <li>NTP</li>
+          <li>HSRP</li>
+          <li>GLBP</li>
+        </ul>
+        <li>Administration</li>
+        <ul>
+          <li>VLANs</li>
+          <li>Subnetting</li>
+          <li>IP addressing</li>
+          <li>Route summarization</li>
+          <li>QoS</li>
+          <li>NAT</li>
+        </ul>
+        <li>Security</li>
+        <ul>
+          <li>ACLs</li>
+          <li>DHCP snooping</li>
+          <li>ARP inspection</li>
+          <li>Port security</li>
+          <li>TACACS+</li>
+          <li>RADIUS</li>
+          <li>WPA2/WPA3</li>
+        </ul>
+        <li>Troubleshooting</li>
+        <ul>
+          <li>cURL</li>
+          <li>Ping</li>
+          <li>Traceroute</li>
+        </ul>
+        <li>Monitoring</li>
+        <ul>
+          <li>Wireshark</li>
+        </ul>
+      </ul>
+      <h4>Web Dev - Frontend:</h4>
+      <ul>
+        <li>React</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript/TypeScript</li>
+      </ul>
+      <h4>Web Dev - Backend:</h4>
+      <ul>
+        <li>Express/NodeJs</li>
+        <li>MongoDB</li>
+      </ul>
+      <h4>Spoken Languages:</h4>
+      <ul>
+        <li>English</li>
+        <li>Spanish</li>
+      </ul>
+      <h3>Projects:</h3>
+      <ul>
+        <li>HTTP to HTTPS Web Proxy</li>
+        <li>Lempel-Ziv File Compressor and Decompressor</li>
+        <li>IPv6 Address Resolution Simulator</li>
+        <li>Web Blog</li>
+        <li>Smart Bike Lock</li>
+        <li>Personal Website</li>
+      </ul>
+
+      <h3>Hands On Work</h3>
+      <ul>
+        <li>Physical Network Labs</li>
+        <li>Packet Tracer Network Labs</li>
+      </ul>
+      <h3>Other Skills</h3>
+      <ul>
+        <li>Curious</li>
+        <li>Quick at adapting</li>
+        <li>Reliable</li>
+        <li>HardWorking</li>
+        <li>Multitasking</li>
+      </ul>
+      <h3>Work Experience</h3>
+      <ul>
+        <li>Sambado and Son ---- Summers 2018-2023</li>
+        <ul>
+          <li></li>
+        </ul>
+      </ul>
+    </div>
+  );
+};
+
+export default Resume;
