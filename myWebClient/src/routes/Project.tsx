@@ -1,5 +1,7 @@
 import projectData from "../projectData.json";
 import { useParams, Link } from "react-router-dom";
+import ReactMarkdown from "react-markdown";
+import smartBikeLockMD from "../markdown/SmartBikeLock.md";
 import "../css/ProjectRoute.css";
 
 const Project = () => {
@@ -20,6 +22,13 @@ const Project = () => {
     });
   }
 
+  let projectRoutes;
+  if (project.routes) {
+    projectRoutes = project.routes.map((route) => {
+      return <li>{route}</li>;
+    });
+  }
+
   let projectOptional;
   if (project.options) {
     projectOptional = project.options.map((option) => {
@@ -28,6 +37,7 @@ const Project = () => {
   }
   return (
     <div className="project--single">
+      {project?.incomplete && <div>In the Works</div>}
       <h1>{project?.title}</h1>
       {project?.link && (
         <Link className="project--code" to={project?.link}>
@@ -43,10 +53,25 @@ const Project = () => {
           <ul>{projectFiles}</ul>
         </>
       )}
+      {project?.routes && (
+        <>
+          <h2>Routes</h2>
+          <ul>{projectRoutes}</ul>
+        </>
+      )}
       {project?.options && (
         <>
           <h2>Options</h2>
           <ul>{projectOptional}</ul>
+        </>
+      )}
+      {project.longDescription && (
+        <>
+          <h2>Project Overview</h2>
+          <ReactMarkdown
+            className="project--space"
+            children={smartBikeLockMD}
+          ></ReactMarkdown>
         </>
       )}
       {project?.link && (

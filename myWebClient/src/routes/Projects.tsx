@@ -38,6 +38,7 @@ const Projects = () => {
           title={project.title}
           description={project.description}
           options={project.topics}
+          works={project.incomplete}
         />
       );
     }
@@ -45,6 +46,7 @@ const Projects = () => {
   return (
     <>
       <div className="project--filter--container">
+        <h2 className="project--page--heading">Projects</h2>
         <Link to={"/projects/filter"} className="project--filter">
           <img className="filter--image" src={filter} />
         </Link>

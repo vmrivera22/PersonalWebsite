@@ -20,7 +20,14 @@ const Filter = (/*{ isSelected, selectOption }: Props*/) => {
     { option: "OOP", isSelected: false },
     { option: "Networks", isSelected: false },
     { option: "Web Dev", isSelected: false },
-    { option: "Shell Script", isSelected: false },
+    { option: "Shell Scripting", isSelected: false },
+    { option: "Data Structures", isSelected: false },
+    { option: "Makefile", isSelected: false },
+    { option: "React", isSelected: false },
+    { option: "CSS", isSelected: false },
+    { option: "HTML", isSelected: false },
+    { option: "Multithreaded", isSelected: false },
+    { option: "Hardware", isSelected: false },
   ]);
 
   const [logicOptions, setLogicOptions] = useState<{

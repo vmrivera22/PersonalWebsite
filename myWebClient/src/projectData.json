@@ -13,7 +13,7 @@
     "title": "Web Proxy: HTTP to HTTPS",
     "description": "Multithreaded C++ web proxy that converts client HTTP requests to HTTPS requests and server HTTPS responses to HTTP.",
     "link": "https://github.com/vmrivera22/Web-Proxy",
-    "topics": ["C++", "Network", "Makefile", "Data Structures"],
+    "topics": ["C++", "Networks", "Makefile", "Data Structures"],
     "files": ["README.md", "Makefile", "ll.h", "myproxy.cpp", "validarg.h", "testscript.sh", "test.txt"]
   },
   {
@@ -43,7 +43,8 @@
     "title": "Personal Website: Portfolio",
     "description": "Personal website displaying information about my education, experiences, and interests.",
     "link": "https://github.com/vmrivera22/PersonalWebsite",
-    "topics": ["Typescript", "React", "CSS", "HTML"]
+    "topics": ["Typescript", "React", "CSS", "HTML"],
+    "routes": ["/", "/about", "/resume", "/projects", "/project/:id"]
   },
   {
     "id": 6, 
@@ -58,19 +59,22 @@
     "title": "Reliable UDP",
     "description": "A client and server that communicate through UDP but ensures reliability by sequencing packets and retransmitting lost packets.",
     "link": "https://github.com/vmrivera22/ReliableUDP",
-    "topics": ["C++", "Multithreaded", "Networks"]
+    "topics": ["C++", "Multithreaded", "Networks"],
+    "files": ["Makefile", "README.md", "ll.h", "myclient.cpp", "myserver.cpp", "myhost.h", "packetfunc.h"]
   },
   {
     "id": 8, 
     "title": "Multithreaded Queue",
     "description": "A simple multithreaded Queue data structure.",
-    "link": "",
-    "topics": ["C", "Multithreaded"]
+    "link": "https://github.com/vmrivera22/Multi-threaded-Queue",
+    "topics": ["C", "Multithreaded"],
+    "files": ["Makefile", "README.md", "queue.c"]
   },
   {
     "id": 9, 
     "title": "Smart Bike Lock",
     "description": "A GPS-enabled smart bike lock that interfaces with a smartphone app via WiFi and Bluetooth.",
+    "longDescription": "This project was part of my senior capstone project at ucsc. The project featured a bike lock that would connect and transmit data to a smartphone app. The app would display GPS location, was capable of unlocking the lock, and recived notifications if tampering was detected. I mainly worked on the hardware portion of this programing a touch sensor module that detected tamering, the GPS module, and the bluetooth server on the microcontroller.",
     "link": "",
     "topics": ["Python", "Hardware"]
   },
@@ -86,11 +90,8 @@
       "pathfinder.c",
       "graph.c/h",
       "stack.c/h",
-      "test.sh",
-      "utils.sh",
-      "simple_directed_path.sh",
-      "simple_path.sh",
-      "simple_path.txt"
+      "test_scripts: test.sh, utils.sh, simple_directed_path.sh, simple_path.sh",
+      "test_file: simple_path.txt"
     ],
     "options": [
       "-i <input>: Specify input file to make the graph (stdin by default)",
