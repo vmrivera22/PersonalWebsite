@@ -6,16 +6,20 @@ import About from "./routes/About";
 import Resume from "./routes/Resume";
 import Project from "./routes/Project";
 import Filter from "./routes/Filter";
+import ErrorPage from "./components/ErrorPage";
+import { triviaLoader } from "./components/SidebarLeft";
 
 const App = () => {
   return createBrowserRouter([
     {
       path: "/",
       element: <Template />,
+      errorElement: <ErrorPage />,
       children: [
         {
           path: "/",
           element: <Home />,
+          loader: triviaLoader,
         },
         {
           path: "/projects",

@@ -1,0 +1,9 @@
+.error--container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error--text{
+    color: white;
+}

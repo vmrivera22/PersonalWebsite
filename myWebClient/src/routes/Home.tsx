@@ -1,29 +1,27 @@
-import { useEffect, useState } from "react";
 import "../css/Home.css";
+import SidebarRight from "../components/SidebarRight";
+import SidebarLeft from "../components/SidebarLeft";
+import GetWindow from "../components/GetWindow";
+import linkedIn from "../assets/linkedin1.png";
+import phone from "../assets/phone.png";
+import email from "../assets/email.png";
+import reddit from "../assets/reddit.png";
 
 const Home = () => {
-  const [quote, setQuote] = useState<{
-    _id: string;
-    content: string;
-    author: string;
-  }>();
-  useEffect(() => {
-    fetch("https://api.quotable.io/quotes/random")
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data[0]);
-        setQuote(data[0]);
-      })
-      .catch((err) => {
-        console.log(err.message);
-      });
-  }, []);
+  const window = GetWindow();
   return (
     <div className="home--container">
-      <h1 className="home--title">Victor Manuel Rivera</h1>
-      <div className="home--quote">
-        {quote?.content} -{quote?.author}
+      {window.windowWidth > 600 && <SidebarLeft />}
+      <div className="home--main">
+        <h1 className="home--title">Victor Manuel Rivera</h1>
+        <div className="home--contact--container">
+          <img src={linkedIn} className="home--contact home--linkedin" />
+          <img src={email} className="home--contact home--email" />
+          <img src={phone} className="home--contact home--phone" />
+          <img src={reddit} className="home--contact home--reddit" />
+        </div>
       </div>
+      <SidebarRight />
     </div>
   );
 };
