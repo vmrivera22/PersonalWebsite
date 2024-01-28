@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+// Function to get the current size of the browser window.
 const GetWindow = () => {
   const [windowDimension, setWindowDimension] = useState({
     windowWidth: window.innerWidth,
@@ -12,7 +13,6 @@ const GetWindow = () => {
         windowWidth: window.innerWidth,
         windowHeight: window.innerHeight,
       });
-      console.log(window.innerWidth);
     };
     const handleSize = () => {
       clearTimeout(timeout);

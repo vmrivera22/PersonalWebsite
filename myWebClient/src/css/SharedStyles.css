@@ -9,7 +9,7 @@
 }
 
 .shared--background{
-    background-image: url("../assets/background7.png");
+    background-image: url("../assets/sharedbackground.png");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
@@ -22,9 +22,18 @@
     z-index: -1;
 }
 
-.shared--container{
-    color: white;
-    z-index: 1;
+.markdown--container{
+    padding: 20px;
+    margin: 30px auto 30px auto;
+    max-width: 800px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+}
+
+.icon{
+    cursor: pointer;
+    height: 29px;
+    width: 29px;
 }
 
 .white{
@@ -35,4 +44,24 @@
 .black{
     color: black;
     text-decoration: none;
+}
+
+.red{
+    color: rgb(255, 83, 83);
+}
+
+.black--bg{
+    background-color: black;
+}
+
+.white--bg{
+    background-color: white;
+}
+
+.grey--bg{
+    background-color: rgb(107, 104, 104);
+}
+
+.black--op--bg{
+    background-color: rgba(0, 0, 0, 0.75);
 }

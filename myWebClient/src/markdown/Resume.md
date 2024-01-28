@@ -1,10 +1,4 @@
-# Resume
-
-### [One Page Resume PDFs](/):
-
-> - [Network Resume PDF](/)
-> - [Software Engineer Resume PDF](/)
-> - [Bioengineering Resume PDF](/)
+` `
 
 ---
 

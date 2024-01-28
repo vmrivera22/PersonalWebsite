@@ -33,10 +33,7 @@
 }
 
 .header--github{
-    height: 27px;
-    width: 27px;
     align-self: center;
-    background-color: white;
     border-radius: 100%;
 }
 
@@ -62,7 +59,7 @@ input[type='radio']:checked:after {
     top: -2px;
     left: -1px;
     position: relative;
-    background-color: #696969;
+    background-color: rgb(107, 104, 104);
     content: '';
     display: inline-block;
     visibility: visible;

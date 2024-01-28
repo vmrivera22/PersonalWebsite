@@ -1,9 +1,8 @@
 .dropdown{
-    position:absolute;
+    position: absolute;
     top: 65px;
     right: 20px;
     width: 200px;
-    background-color: white;
     border-radius: 10px;
     padding: 1rem;
     transition: top 1s ease-in-out;
@@ -16,9 +15,8 @@
     right: 20px;
     height: 20px;
     width: 20px;
-    background-color: white;
+    background-color: rgb(107, 104, 104);
     transform: rotate(45deg);
-    z-index: 100;
 }
 
 .menu--item{
@@ -31,11 +29,7 @@
 }
 
 .menu--item:hover{
-    background-color: rgb(158, 158, 158);
+    background-color: rgb(134, 134, 134);
     cursor: pointer;
-}
-
-.icon--right{
-    margin-left:auto;
 }
 
