@@ -5,6 +5,7 @@ import { useLoaderData } from "react-router-dom";
 import Confetti from "react-confetti";
 import GetWindow from "./GetWindow";
 import Trivia from "./Trivia";
+import ErrorPage from "./ErrorPage";
 
 // Component for the left sidebar (Trivia Questions).
 const Sidebar = () => {

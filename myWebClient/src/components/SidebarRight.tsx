@@ -1,6 +1,7 @@
 import "../css/Header.css";
 import { useEffect, useState } from "react";
 import GetWindow from "./GetWindow";
+import { Loading } from "./Loading";
 
 // Component for the right sidebar (Quote).
 const SidebarRight = () => {
@@ -15,15 +16,23 @@ const SidebarRight = () => {
 
   // Fetch the quote.
   useEffect(() => {
-    fetch("https://api.quotable.io/quotes/random")
-      .then((response) => response.json())
-      .then((data) => {
-        setQuote(data[0]);
-      })
-      .catch((err) => {
-        console.log(err.message);
-      });
+    const getQuote = async () => {
+      await fetch("https://api.quotable.io/quotes/random")
+        .then((response) => response.json())
+        .then((data) => {
+          setQuote(data[0]);
+        })
+        .catch((err) => {
+          console.log(err.message);
+        });
+    };
+    getQuote();
   }, []);
+
+  if (!quote) {
+    return <Loading />;
+  }
+
   return (
     <div
       className={

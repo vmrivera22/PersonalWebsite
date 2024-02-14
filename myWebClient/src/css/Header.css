@@ -37,40 +37,6 @@
     border-radius: 100%;
 }
 
-
-input[type='radio']:after {
-    width: 10px;
-    height: 10px;
-    border-radius: 15px;
-    top: -2px;
-    left: -1px;
-    position: relative;
-    background-color: #d1d3d1;
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
-}
-
-input[type='radio']:checked:after {
-    width: 10px;
-    height: 10px;
-    border-radius: 15px;
-    top: -2px;
-    left: -1px;
-    position: relative;
-    background-color: rgb(107, 104, 104);
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
-}
-
-.radio--label{
-    display: flex;
-    align-items: center;   
-}
-
 .header--menu{
     width: 27px;
     height: 27px;

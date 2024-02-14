@@ -144,6 +144,18 @@
     color: rgb(245, 0, 0);
 }
 
+
+
+input[type='radio'] {
+    accent-color: rgb(107, 104, 104);
+}
+
+.radio--label{
+    display: flex;
+    align-items: center;   
+}
+
+
 .submit--button{
     position: relative;
     left: 50%;
@@ -151,7 +163,8 @@
     margin: 30px auto 0px auto;
     color: white;
     box-shadow: 0 0 3px 2px rgb(195, 194, 194);
-    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 
 }
 

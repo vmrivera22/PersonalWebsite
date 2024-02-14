@@ -48,6 +48,25 @@ const Project = () => {
           Source Code
         </Link>
       )}
+      {project.websitelink && (
+        <>
+          <Link to={project.websitelink} className="project--code">
+            Deployed Website
+          </Link>
+          <br />
+        </>
+      )}
+      {project.frontend && (
+        <>
+          <Link className="project--code" to={project.frontend}>
+            Frontend Repository
+          </Link>
+          <br />
+          <Link className="project--code" to={project.backend}>
+            Backend Repository
+          </Link>
+        </>
+      )}
       <br />
       <h2>Summary</h2>
       <p>{project?.description}</p>

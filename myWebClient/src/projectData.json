@@ -99,5 +99,15 @@
       "-d: specifies that the graph be directed.",
       "-m: specifies that the adjacency matrix be printed."
     ]
+  },
+  {
+    "id": 11,
+    "title": "Restaurant: Culinary Affair",
+    "description": "A responsive mock restaurant website where a user can view the restaurant menu, sign in using Auth0 to place an order, and view information related to the restaurant.  For the project, I used React with TypeScript for the front end, ASP.NET Core API (C#) for the backend, and Azure SQL Database to store data.",
+    "frontend": "https://github.com/vmrivera22/restaurant-CulinaryAffair-client",
+    "backend": "https://github.com/vmrivera22/restaurant-CulinaryAffair-server",
+    "websitelink": "https://culinary-affair.vercel.app/",
+    "topics": ["Typescript", "React", "CSS", "HTML", "Redux", "Auth0", "Azure SQL DB", "C#", "ASP.NET Core", "EF"],
+    "routes" : ["/","/locations","/menu","/cart"]
   }
 ]
