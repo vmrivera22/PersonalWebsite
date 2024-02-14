@@ -14,6 +14,15 @@
     min-width: 190px;
     width: 40vw;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.project--container h1{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .project--skills{
@@ -43,6 +52,7 @@
 }
 
 .project--options{
+    margin-top: 10px;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -88,11 +98,11 @@
 }
 
 .project--text--container{
-    height: 60px;
+    height: 40px;
     overflow: visible;
 }
 
 .project--chef--container{
-    height: 30px;
+    height: 50px;
     overflow: visible;
 }

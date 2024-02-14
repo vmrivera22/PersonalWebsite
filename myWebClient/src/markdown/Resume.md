@@ -1,7 +1,3 @@
-` `
-
----
-
 ## Extended Resume
 
 ### Victor Manuel Rivera

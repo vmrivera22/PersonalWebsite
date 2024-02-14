@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import smartBikeLockMD from "../markdown/SmartBikeLock.md";
 import "../css/ProjectRoute.css";
+import remarkBreaks from "remark-breaks";
 
 // Route that displays a single project.
 const Project = () => {
@@ -73,25 +74,29 @@ const Project = () => {
       {project?.files && (
         <>
           <h2>Files</h2>
-          <ul>{projectFiles}</ul>
+          <ul className="project--list">{projectFiles}</ul>
         </>
       )}
       {project?.routes && (
         <>
           <h2>Routes</h2>
-          <ul>{projectRoutes}</ul>
+          <ul className="project--list">{projectRoutes}</ul>
         </>
       )}
       {project?.options && (
         <>
           <h2>Options</h2>
-          <ul>{projectOptional}</ul>
+          <ul className="project--list">{projectOptional}</ul>
         </>
       )}
       {project.longDescription && (
         <>
           <h2>Project Overview</h2>
-          <ReactMarkdown children={smartBikeLockMD}></ReactMarkdown>
+          <ReactMarkdown
+            className="prose prose-invert"
+            remarkPlugins={[remarkBreaks]}
+            children={smartBikeLockMD}
+          ></ReactMarkdown>
         </>
       )}
       {project?.link && (

@@ -65,3 +65,9 @@
 .black--op--bg{
     background-color: rgba(0, 0, 0, 0.75);
 }
+
+.resume--links li{
+    color: blue;
+    list-style: disc;
+    margin-left: 40px;
+}

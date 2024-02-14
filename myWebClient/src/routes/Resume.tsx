@@ -3,14 +3,15 @@ import resumeMD from "../markdown/Resume.md";
 import NetworkResume from "../assets/Resume_ ComputerNetwork.pdf";
 import CSResume from "../assets/Resume_ Software.pdf";
 import "../css/SharedStyles.css";
+import remarkBreaks from "remark-breaks";
 
 // Resume Route -- Text in markdown/Resume
 const Resume = () => {
   return (
     <div className="markdown--container">
       <h1>Resume</h1>
-      <h3>One Page Resume PDFs</h3>
-      <ul>
+      <h3>One Page Resume PDFs: </h3>
+      <ul className="resume--links">
         <li>
           <a
             href={NetworkResume}
@@ -30,7 +31,13 @@ const Resume = () => {
           </a>
         </li>
       </ul>
-      <ReactMarkdown children={resumeMD}></ReactMarkdown>
+      <br />
+      <br />
+      <ReactMarkdown
+        className="prose prose-invert"
+        remarkPlugins={[remarkBreaks]}
+        children={resumeMD}
+      ></ReactMarkdown>
     </div>
   );
 };
