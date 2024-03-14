@@ -25,6 +25,11 @@ const Filter = () => {
     { option: "HTML", isSelected: false },
     { option: "Multithreaded", isSelected: false },
     { option: "Hardware", isSelected: false },
+    { option: "Azure SQL DB", isSelected: false },
+    { option: "C#", isSelected: false },
+    { option: "ASP.NET Core", isSelected: false },
+    { option: "EF", isSelected: false },
+    { option: "Auth0", isSelected: false },
   ]);
 
   // State to select how to logically combine the selected options (AND or OR).

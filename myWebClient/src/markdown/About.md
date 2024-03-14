@@ -47,6 +47,7 @@ Throughout my years of programming, I have developed several projects of varying
 > - [Lempel-Ziv Compressor and Decompressor](/project/1): (C, Makefile, Shell Scripting, Data Structures)
 > - [Web Proxy](/project/2): (C++, Makefile, Multithreading, Network Programming)
 > - [IPv6 Address Resolution Simulator](/project/4): (Python, OOP, Network Programming)
+> - [Web Blog: Blog Bridges](/project/6): (Typescript, React, CSS, HTML, Azure SQL DB, C#, ASP.NET Core, EF, Auth0)
 
 ---
 

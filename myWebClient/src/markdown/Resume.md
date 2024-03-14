@@ -178,8 +178,15 @@
 >   - Projects page displays the projects I have completed.
 >   - Implemented a filter function that filters projects by categories. Categories can be "ANDed" or "ORed".
 >   - Used libraries like:
->     - react-router-dom (6.21.0): routing within the web page
+>     - react-router (6.21.0): routing within the web page
 >     - react-markdown (9.0.1): render markup for pages with a lot of text.
+
+> - [Web Blog: Blog Bridges](/project/6)
+>   - Developed a web blog using React (Typescript) for the frontend and ASP.NET Core for the backend.
+>   - Utilized sevral popular libraries including React Router, React Query, Framer Motion, React Hook Form, Tailwind, and Shadcn.
+>   - Used Auth0 for authentication and kept sensitive information in Azure Key Vault for better security.
+>   - Used Entity Framework to facilitate query mapping.
+>   - Enhanced my understanding of several react libraries as well as full stack development.
 
 > - [Smart Bike Lock](/project/9)
 >   - Designed and built a GPS-enabled smart bike lock, interfacing with a smartphone app via WiFi and Bluetooth in a group of 7 people.
