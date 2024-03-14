@@ -50,9 +50,9 @@
     "id": 6,
     "title": "Web Blog: Blog Bridges",
     "description": "A responsive blog website where a user can create an account, change their profile avatar, create rooms, add posts to the rooms, and add comments to the posts. If a user is the creator of the room they are able to edit and delete the room, as well as add rules to the room. Similarly a creator of a post can edit and delete their own posts.",
-    "frontend": "",
-    "backend": "",
-    "websitelink": "",
+    "frontend": "https://github.com/vmrivera22/BlogBridges-Client",
+    "backend": "https://github.com/vmrivera22/BlogBridges-Server",
+    "websitelink": "https://blogbridges.vercel.app/",
     "topics": ["Typescript", "React", "CSS", "HTML", "Azure SQL DB", "C#", "ASP.NET Core", "EF", "Auth0"],
     "libraries": ["React Query, React Router, Framer Motion", "React Hook Form", "Tailwind", "Shadcn (radix ui)"],
     "routes": ["/", "/room", "/post", "/profile"]
